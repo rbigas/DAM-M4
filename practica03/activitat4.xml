@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Llista d'estudiants d'un institut-->
+<books>
+    <book id="23727512">
+        <title>"Las movidas te Tese"</title>
+        <publisher>"Penguin Random"</publisher>
+        <cover>"Blanda"</cover>
+        <price>"13.50€"</price>
+    </book>
+    <book id="746287334">
+        <title>"Pokahontas en Murcia"</title>
+        <publisher>"Misco Editions"</publisher>
+        <cover>"Dura"</cover>
+        <price>"22.50€"</price>
+    </book>
+    <book id="49364893">
+        <title>"Jhamel i su vidorra"</title>
+        <publisher>"Vicent Vives"</publisher>
+        <cover>"Blanda"</cover>
+        <price>"14.50€"</price>
+    </book>
+    <book id="48733264">
+        <title>"Ghost Busters: the story"</title>
+        <publisher>"Harshil Editions"</publisher>
+        <cover>"Blanda"</cover>
+        <price>"19.99€"</price>
+    </book>
+</books>

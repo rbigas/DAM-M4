@@ -1,0 +1,44 @@
+{"students": 
+{
+    "student":
+    [
+        {
+            "id": "25123783",
+            "name": "Paco",
+            "surname": "Vazquez",
+            "email": "ola@hotmail.com",
+            "dni": "33329197U"
+        },
+        
+        {
+            "id": "54678783",
+            "name": "Paca",
+            "surname": "Vazquez",
+            "email": "adio@hotmail.com",
+            "dni": "35291976H"
+        },
+        {
+            "id": "25123783",
+            "name": "Sandra",
+            "surname": "Vazquez",
+            "email": "buenas@hotmail.com",
+            "dni": "01927534B"
+        },
+        {
+            "id": "0174927",
+            "name": "Harki",
+            "surname": "Hitesh",
+            "email": "bacaca@yahoo.com",
+            "dni": "49334567O"
+        },
+        {
+            "id": "25123783",
+            "name": "Mario",
+            "surname": "Roto",
+            "email": "gongola@hotmail.com",
+            "dni": "49336567Y"
+        }
+    ]
+    
+}
+}

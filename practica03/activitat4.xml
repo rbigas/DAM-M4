@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Llista d'estudiants d'un institut-->
+<!-- Lista de libros en una librería-->
 <books>
     <book id="23727512">
         <title>"Las movidas te Tese"</title>

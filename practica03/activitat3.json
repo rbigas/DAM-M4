@@ -1,0 +1,33 @@
+{"bookstore": 
+{
+    "book":
+    [
+        {
+            "title": "Las movidas te Tese",
+            "publisher": "Penguin Random",
+            "cover": "Blanda",
+            "price": "13.50€"
+        },
+        
+        {
+            "title": "Pokahontas en Murcia",
+            "publisher": "Misco Editions",
+            "cover": "Dura",
+            "price": "22.50€"
+        },
+        {
+            "title": "Jhamel i su vidorra",
+            "publisher": "Vicent Vives",
+            "cover": "Blanda",
+            "price": "14.50€"
+        },
+        {
+            "title": "Ghost Busters: the story",
+            "publisher": "Harshil Editions",
+            "cover": "Blanda",
+            "price": "19.99€"
+        }
+    ]
+    
+}
+}

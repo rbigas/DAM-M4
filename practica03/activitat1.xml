@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Llista d'estudiants d'un institut-->
+<students>
+    <student id="23727512">
+        <name>Paquito</name>
+        <surname>Chocolatero</surname>
+        <email>olaldoel@gmail.com</email>
+        <dni>65789098J</dni>
+    </student>
+    <student id="746287334">
+        <name>Rosa</name>
+        <surname>Ferelengue</surname>
+        <email>rosafg86@gmail.com</email>
+        <dni>21358475H</dni>
+    </student>
+    <student id="49364893">
+        <name>Tese</name>
+        <surname>Orlando</surname>
+        <email>torlando987@gmail.com</email>
+        <dni>49320930Y</dni>
+    </student>
+    <student id="48733264">
+        <name>Jhamel</name>
+        <surname>Lavanda</surname>
+        <email>jlavanda546@gmail.com</email>
+        <dni>36958741G</dni>
+    </student>
+    <student id="487368732">
+        <name>Farhaad</name>
+        <surname>Jhalouli</surname>
+        <email>farahadj54@gmail.com</email>
+        <dni>23915876L</dni>
+    </student>
+</students>

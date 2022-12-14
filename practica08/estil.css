@@ -199,7 +199,26 @@ div#search_buttons input {
     cursor: pointer;
 }
 
+
 div#search_buttons input:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid lightgrey;
+}
+
+div#search_buttons a{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px 11px 4px;
+    padding: 9px;
+    height: 36px;
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+div#search_buttons a:hover {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
     background-color: #f8f9fa;
     border: 1px solid lightgrey;
@@ -284,4 +303,33 @@ div#enlace_priv {
     justify-content: flex-end;
     min-width: 30%;
     order: 3;
+}
+
+div#centro{
+    display: flex;
+    justify-content: center;
+}
+div.imgdni{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+div.imgdni img{
+    width: 150px;
+    height: 180px;
+}
+
+div.imgdni p{
+    padding: 5px;
+}
+
+p.hobbies{
+    text-align: justify;
+}
+p.despues{
+    text-align: justify;
+
 }

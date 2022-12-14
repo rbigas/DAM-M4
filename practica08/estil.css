@@ -1,4 +1,5 @@
-* {padding: 0;
+* {
+    padding: 0;
     margin: 0;
     font-family: arial, sans-serif;
 }
@@ -34,6 +35,40 @@ div#right {
     height: 50px;
 }
 
+div#more {
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
+    width: 200px;
+}
+
+div#more img#menu {
+    margin: auto;
+    order: 2;
+    height: 16px;
+}
+
+div#more #login {
+    display: block;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    order: 1;
+    margin: auto;
+    background-color: #2B7DE9;
+    text-decoration: none;
+    padding: 9px 23px 9px 23px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+div#more #login:hover{
+    background-color: #1B66C9;
+    box-shadow: 0px 2px 3px lightgray;
+}
+
 div#links {
     float: right;
 }
@@ -55,40 +90,6 @@ div#links a:hover {
     text-decoration: underline;
 }
 
-div#more {
-    float: right;
-    display: flex;
-    flex-direction: row-reverse;
-    height: 50px;
-    width: 200px;
-}
-
-img#menu {
-    margin: auto;
-    order: 2;
-    height: 16px;
-}
-
-#login {
-    display: block;
-    border-radius: 4px;
-    border: none;
-    color: white;
-    font-weight: bold;
-    order: 1;
-    margin: auto;
-    background-color: #2B7DE9;
-    text-decoration: none;
-    padding: 9px 23px 9px 23px;
-    font-weight: normal;
-    font-size: 15px;
-}
-
-#login:hover{
-    background-color: #1B66C9;
-    box-shadow: 0px 2px 3px lightgray;
-}
-
 div#google {
     display: flex;
     width: 100%;
@@ -104,7 +105,6 @@ div#central {
     width: 100%;
     height: 20%;
     padding-top: 25px;
-    margin-bottom: 15px;
 }
 
 div#search_bar {
@@ -227,7 +227,7 @@ div#search_buttons a:hover {
 div#idiomas {
     text-align: center;
     font-size: small;
-
+    margin-top: 15px;   
 }
 
 div#idiomas a {
@@ -238,13 +238,6 @@ div#idiomas a {
 
 div#idiomas a:hover {
     text-decoration: underline;
-}
-
-div#region{
-    display: block;
-    padding: 15px 30px 15px 30px;
-    color: #70757a;
-    border-bottom: 1px solid #dadce0;
 }
 
 div#footer{
@@ -273,6 +266,12 @@ div#footer a:hover{
     text-decoration: underline;
 }
 
+div#region{
+    display: block;
+    padding: 15px 30px 15px 30px;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+}
 
 div#enlaces{
     display: flex;
@@ -282,16 +281,10 @@ div#enlaces{
     background: #f2f2f2;
 }
 
-div.enlaces {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 div#enlace_publi {
+    order: 1;
     justify-content: flex-start;
     min-width: 30%;
-    order: 1;
 }
 
 div#enlace_sust {
@@ -300,36 +293,34 @@ div#enlace_sust {
 }
 
 div#enlace_priv {
+    order: 3;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     min-width: 30%;
-    order: 3;
 }
-
+/*Parte JhamelFunes |Aqui comienza el css de la pagina imgdni.html , usando diferentes propiedades como flex y block para alinear los items. */
 div#centro{
     display: flex;
     justify-content: center;
 }
-div.imgdni{
+
+div.fotos_y_info{
     display: inline-block;
     margin-top: 25px;
     padding: 10px;
     text-align: center;
-
 }
 
-div.imgdni img{
+div.fotos_y_info img{
     width: 150px;
     height: 180px;
 }
 
-div.imgdni p{
+div.fotos_y_info p{
     padding: 5px;
 }
 
-p.hobbies{
+p.justify {
     text-align: justify;
-}
-p.despues{
-    text-align: justify;
-
 }

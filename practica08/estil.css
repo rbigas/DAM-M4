@@ -3,7 +3,7 @@
     margin: 0;
     font-family: arial, sans-serif;
 }
-
+/* Aquí comença el header. */
 div#header {
     padding: 5px 0px 3px 0px;
     height: 50px;
@@ -100,6 +100,8 @@ div#google img {
     margin: auto;
     margin-bottom: 0px;
 }
+
+/* Aquí comença la part central. */
 
 div#central {
     width: 100%;
@@ -239,6 +241,8 @@ div#idiomas a {
 div#idiomas a:hover {
     text-decoration: underline;
 }
+
+/* Aquí comença el footer. */
 
 div#footer{
     font-size: 14px;

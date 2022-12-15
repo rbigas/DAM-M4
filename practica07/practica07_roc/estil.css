@@ -1,0 +1,46 @@
+/* La següent declaració estableix els marges i farciments predefinits a 0px.*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* La següent declaració estableix la div de color groc amb una posició absoluta,
+   per tant, la distancia dels marges es calculará des del body.*/
+#groc {
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #FFFF00;
+}
+
+/* La següent declaració estableix la div de color blau amb una posició relativa,
+   per tant, la distancia dels marges es calculará des de la div anterior (el parent).*/
+#blau {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #78A4D2;
+}
+
+#verd {
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    top: 140px;
+    left: 100px;
+    background-color: #39FF9E;
+    z-index: -1;
+}
+
+#vermell {
+    position: relative;
+    top: 60px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+    background-color: #FF3939;
+}
